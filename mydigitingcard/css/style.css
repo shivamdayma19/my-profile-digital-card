@@ -60,23 +60,27 @@
 
 .experience{
     display: flex;
+    justify-content: center;
     gap: 10px;
-    padding: 20px;
+    padding: 20px; 
     font-size: 15px;
     font-weight: bold;
     
 }
 
 .experience-info{
-    border-radius: 5px;
+    width: 100%;
+    border-radius: 15px;
     padding: 10px;
     text-align: center;
-    background-color: #2f2d2d;
+    background-color: #1e1d1d;
+    font-size: 10px;
 
 }
 
 .experience i {
     color: #fff;
+    font-size: 15px;
 }
 
 .experience-info span{
@@ -85,32 +89,37 @@
 
 .about-me{
     border: 1px solid;
-    color:  #bfbaba;
+    color:  #969393;
     text-align: center;
     padding: 20px;
     font-size: 12px;
     font-weight: 400;
     border-radius: 10px;
+    margin: 0 20px;
 }
 
-.contact-info{
+.contact-info {
+    display: inline-block;
+    justify-content: center;
+text-align: center;}
+
 
     
-}
+
 
 .contact-type{
-    color: #fff;
+    color: #a59f9f;
     font-weight: bold;
     font-size: 10px;
-    background-color: #2f2d2d;
+    background-color: #1e1d1d;
     border-radius: 15px;
-    padding: 10px;
-    display: block;
-    margin: 10px;
-    gap: 10px;
+    padding: 8px;
+    margin: 10px;  
     
 }
 
-.contact-type i .ph{
-    font-size: 40px;
+.contact-type .ph {
+    font-size: 20px; 
+    
+     
 }
