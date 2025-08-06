@@ -99,18 +99,20 @@
     margin: 0 20px;
 }
 
-.contact-info-wr {    
-}
+  
+
 
 .contact-info {
     font-size: 15px;
     display: inline-flex;
     gap: 5px;
+    margin-left: 10px;
     
 }
    
 .contact-info i {
     font-size: 20px;
+    
 }
 
 
@@ -141,8 +143,14 @@
 }
 
 
+.technical-skills {
+    font-size: 15px;
+}
+
 .technical-skills{
     font-size: 15px;
+
+
 }
 
 .skills-wr{
