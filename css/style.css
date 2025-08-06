@@ -99,10 +99,10 @@
     margin: 0 20px;
 }
 
+.contact-info-wr {    
+}
+
 .contact-info {
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
     font-size: 15px;
     margin-bottom: 10px;
 }
@@ -130,6 +130,11 @@
     font-size: 20px;    
 }
 
+
+.technical-skills{
+    font-size: 15px;
+}
+
 .skills{
     color: rgb(208, 173, 240);
     font-weight: bold;
@@ -140,14 +145,11 @@
     padding: 10px 20px;
     margin: 10px;  
     display: inline-flex;
+    align-items: center;
     gap: 5px;
-    width: 25%;
-    text-align: center;
+    
+    
 
 
 }
 
-.technical-skills{
-font-size: 15px;
-
-}
