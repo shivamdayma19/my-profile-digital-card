@@ -6,29 +6,31 @@
 }
 
 .body{
-    color: #000;
-    border: 5px solid;
     margin: 10px;
     background-color: #000;
 }
 
 .mobile-container{
+    
     margin: 0 auto ;
     width: 100%;
     max-width: 400px;
     background-color: black;
-    color: rgb(187, 132, 239);
+    color: rgb(178, 120, 233);
     font-family: "Poppins", sans-serif;
     padding: 10px;
     border-radius: 20px;
-    border: 0.02px solid #fff;
+    border: .1px solid #fff;
 }
 
 .profile-image img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
-    border: 5px solid;
+    border: 2px solid #fff;
+    object-fit: cover;
+    object-position:  top ;
+    margin-top: 20px;
     
     
 }
