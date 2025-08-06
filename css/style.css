@@ -104,7 +104,9 @@
 
 .contact-info {
     font-size: 15px;
-    margin-bottom: 10px;
+    display: inline-flex;
+    gap: 5px;
+    
 }
    
 .contact-info i {
@@ -122,6 +124,8 @@
     padding: 8px;
     margin: 10px;  
     text-decoration: none;
+    display: flex;
+    gap: 5px;
     
    
     
